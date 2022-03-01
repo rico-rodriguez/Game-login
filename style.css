@@ -137,3 +137,13 @@ input:focus:invalid {
   input:focus:valid {
     border: 4px solid rgb(158, 255, 155);
   }
+
+.gitHub {
+    color: rgb(255, 255, 255);
+    size: 100px;
+    position: fixed;
+    
+    top: 96%;
+    left: 1%;
+
+}
