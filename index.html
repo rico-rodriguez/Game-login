@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet"> 
+    <title>FutureZone</title>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+      <div class="row">
+        <div class="imageCont col-lg-6 col-md-6 col-sm-6"><img src="/japan.gif" alt="aesthetic japanese image" class="japanimage"></div>
+
+        <!-- REGISTRATION FORM -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="register-form">
+                <div class="form">
+                    <div class="textbox note">
+                        <p>Sign up now to start your start your adventure.</p>
+                    </div>
+    
+                    <div class="form-content">
+                        <div class="row">
+                                <form><p class="formDescription">Character Name*</p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Character Name *" value=""
+                                    required/>
+                                </div>
+                                <p class="formDescription">Email Address*</p>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address *" value=""
+                                    required/>
+                                </div>
+                                <p class="formDescription">Password*</p>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="5-20 Characters *" value=""
+                                    required
+                                    minlength="5" maxlength="20"/>
+                                </div>
+                                <p class="formDescription">Confirm Password*</p>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="5-20 Characters *" value=""
+                                    required
+                                    minlength="5" maxlength="20"/>
+                                </div>
+                        </div>
+                        <div class="textbox2">
+                            <p>Choose your path.</p>
+                        </div>
+                        <div class="btn-group btn-group-toggle btn-group-justified" data-toggle="buttons">
+                            <label class="cBtn btn btn-secondary active" id="btn">
+                              <input type="radio" name="options" id="btn" autocomplete="off" checked required> Criminal
+                            </label>
+                            <label class="oBtn btn btn-secondary" id="btn">
+                              <input type="radio" name="options" id="btn" autocomplete="off"> Officer
+                            </label>
+                            <label class="mBtn btn btn-secondary" id="btn">
+                              <input type="radio" name="options" id="btn" autocomplete="off"> Medic
+                            </label>
+                          </div>
+                        <button type="submit" class="btnSubmit">Submit</button>
+                    </form>
+                        <div class="registered"><p>Already a member? Click <a href="#">here</a>  to login.</p></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script> 
+</body>
+</html>
